@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Электроника</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+    <div class="container">
+        
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Передовая электроника</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Переключатель навигации">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">На главную</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Пользователям</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Каталог
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="index-computer.html">Компьютеры</a></li>
+                    <li><a class="dropdown-item" href="index-tv.html">Телевизоры</a></li>
+                    <li><a class="dropdown-item" href="index-smartphon.html">Смартфоны</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="vacuum.html">Пылесос?</a></li>
+                  </ul>
+                </li>
+                
+              </ul>
+<a class="btn btn-primary" style="background-color: transparent; color: rgb(0, 102, 255); border: 0;" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Вход
+</a>
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Вход</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Логин</label>
+            <input type="text" class="form-control" id="login">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Пароль</label>
+            <input type="password" class="form-control" id="passwordIn">
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button data-bs-dismiss="modal" type="button" class="btn btn-primary" id="enterInButton">Войти</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+              <a class="active text-center mr-5" style="text-decoration: none; width: 120px;" aria-current="page" href="registrationUser.html">Регистрация</a>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" id="search" placeholder="Название устройства" aria-label="Поиск">
+                
+                <a href="result-search.html" id="searchBTN" class="btn btn-outline-success" type="submit">
+                  Поиск
+                </a>
+              </form>
+            </div>
+          </div>
+      </nav>
+
+     <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="Карусель/modern-domestic-room-with-technology-nature-accents-generative-ai.jpg" class="d-block w-100" alt="room">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Модерн телевизор</h5>
+                  <p>Идеальный акцент в вашей гостиной с новейшими технологиями и природными элементами.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="Карусель/view-smartphones-with-abstract-wallpaper-coming-out-screen.jpg" class="d-block w-100" alt="telephone">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Современные смартфоны</h5>
+                  <p>Абстрактные обои и инновационный дизайн делают эти смартфоны незаменимыми.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="Карусель/burning-pc-slider-image.jpg" class="d-block w-100" alt="computer">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Мощный ПК</h5>
+                  <p>Погружайтесь в мир компьютерных игр и работы с мощным и стильным ПК.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Предыдущий</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Следующий</span>
+            </button>
+      </div>    
+    
+          <h1 class="d-flex justify-content-center mt-3 mb-3">Наши преимущества</h1>
+
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Широкий ассортимент
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>Телевизоры,компьютеры и смартфоны.</strong> Внашем магазине представлен широкий ассортимент современной электроники от ведущих производителей, что позволяет вам выбрать устройство, полностью соответствующее вашим требованиям.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                   Выгодные цены
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>Скидки и акции.</strong> Мы предлагаем конкурентные цены и регулярные акции, чтобы вы могли приобрести качественную электронику по выгодным ценам.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Быстрая доставка
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>Удобные условия доставки.</strong> Мы обеспечиваем быструю и надежную доставку по всей стране, чтобы вы могли наслаждаться новыми покупками как можно скорее.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <h2 class="d-flex justify-content-center m-3">Заказать Доставку</h2>
+
+      <div class="mt-5 flexible-content" style="display: flex; justify-content: space-between;">
+            <img src="car.JPG" alt="car" class="rounded-2" style="width: 300px; height: 300px;">
+            <form style="width: 900px;" class="row g-2 needs-validation p-3" novalidate>
+                <div class="col-md-4">
+                  <label for="validationCustom01" class="form-label">Имя</label>
+                  <input type="text" class="form-control" id="validationCustom01" value="" required>
+                  <div class="valid-feedback">
+                    Looks good!
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <label for="validationCustom02" class="form-label">Фамилия</label>
+                  <input type="text" class="form-control" id="validationCustom02" value="" required>
+                  <div class="valid-feedback">
+                    Looks good!
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <label for="validationCustomUsername" class="form-label">Почта</label>
+                  <div class="input-group has-validation">
+                    <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                    <span class="input-group-text" id="inputGroupPrepend">@</span>
+                    <input type="text" class="form-control" id="validationCustomUsernameUser" aria-describedby="inputGroupPrepend" required>
+                    <div class="invalid-feedback">
+                      Please choose a username.
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <label for="validationCustom04" class="form-label">Страна</label>
+                  <select class="form-select" id="validationCustom04" required>
+                    <option selected disabled value="">Выберите...</option>
+                    <option>...</option>
+                  </select>
+                  <div class="invalid-feedback">
+                    Please select a valid state.
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <label for="validationCustom04" class="form-label">Город</label>
+                  <select class="form-select" id="validationCustom05" required>
+                    <option selected disabled value=""></option>
+                    <option>...</option>
+                  </select>
+                  <div class="invalid-feedback">
+                    Please select a valid state.
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <label for="validationCustom05" class="form-label">Почтовый индекс</label>
+                  <input type="text" class="form-control" id="validationCustom06" required>
+                  <div class="invalid-feedback">
+                    Please provide a valid zip.
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                    <label class="form-check-label" for="invalidCheck">
+                      Я согласен с условиями
+                    </label>
+                    <div class="invalid-feedback">
+                      You must agree before submitting.
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <button class="btn btn-primary" type="submit">Заказать Доставку</button>
+                </div>
+              </form>
+      </div>
+
+
+
+          <section class="mt-5" >
+            <!-- Footer -->
+            <footer class="bg-dark text-center text-white">
+              
+              <!-- Grid container -->
+              <div class="container p-4">
+                <!--Grid row-->
+                <div class="row align-items-start">
+                  <!--Grid column-->
+                  <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                    <h5 class="fw-bold">О нас</h5>
+                    <p>
+                     Передовая электроника предлагает широкий ассортимент современной электроники с выгодными условиями доставки и ценами.
+                    </p>
+                  </div>
+                  <!--Grid column-->
+    
+                  <!--Grid column-->
+                  <div class="col-lg-4 col-md-6  mb-md-0">
+                    <h5 class="fw-bold">Контакты</h5>
+                    <ul class="list-unstyled mb-0">
+                      <li>Email: info@electronics.com</li>
+                      <li>Телефон: +7 800 555 3535</li>
+                      <li>Адрес: ул.Технологическая 15, Москва, Россия</li>
+                    </ul>
+                  </div>
+                  <!--Grid column-->
+    
+                  <!--Grid column-->
+                  <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                    <h5 class="fw-bold">Следите за нами</h5>
+    
+                    <div
+                      class="ul-div mt-2 ">
+                          <a href="#!" class="text-body"
+                            ><img
+                              style="width: 30px"
+                              src="Иконки/telegram-icon.png"
+                              alt="tg"
+                          /></a>
+                        
+                          <a href="#!" class="text-body"
+                            ><img
+                              style="width: 30px"
+                              src="Иконки/vk-icon.png"
+                              alt="vk"
+                          /></a>
+                       
+                          <a href="#!" class="text-body"
+                            ><img
+                              style="width: 30px"
+                              src="Иконки/twitter-icon.png"
+                              alt="twitter"
+                          /></a>
+                    </div>
+                  </div>
+                  <!--Grid column-->
+                </div>
+                <!--Grid row-->
+              </div>
+              <!-- Grid container -->
+    
+              <!-- Copyright -->
+              <div
+                class="text-center p-3"
+                style="border-top: 1px solid rgba(255, 255, 255, 0.5); background-color: rgba(0, 0, 0, 0.05)"
+              >
+                © 2024 Передовая электроника: все права защищены
+                
+              </div>
+              <!-- Copyright -->
+            </footer>
+            <!-- Footer -->
+          </section>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="Scripts/script-search.js"></script>
+  <script src="Scripts/index-search.js"></script>
+  <script type="module">
+    import { loadedVacuum, logInUser, registrationUser } from "./Scripts/utilities.js";
+
+
+    document.addEventListener("DOMContentLoaded", () => {
+      loadedVacuum("vacuum-cleaner");
+      logInUser("login");
+      registrationUser("registration");
+    });
+  </script>
+    
+</body>
+  
+</html>
